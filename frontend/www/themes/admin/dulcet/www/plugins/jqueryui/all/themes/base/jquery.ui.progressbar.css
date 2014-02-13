@@ -1,0 +1,85 @@
+/*
+ * jQuery UI Progressbar 1.8.16
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Progressbar#theming
+ */
+.ui-progressbar { height:15px; text-align: left; margin-bottom: 5px !important; margin-top: 6px !important; padding: 3px !important;}
+.ui-progressbar .ui-progressbar-value { margin: -1px; height:100%;-moz-border-radius: 3px; -webkit-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px; }
+
+.pbar .ui-progressbar-value {display:block !important}
+.pbar { overflow: hidden; padding: 3px !important;}
+.percent {position:relative;text-align: right;}
+.elapsed {position:relative;text-align: right;}
+
+/* Colors */
+.pbar_orange .ui-progressbar-value.ui-widget-header {
+background: #ffaa67; 
+background: -moz-linear-gradient(top,  #ffaa67 0%, #e4782f 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffaa67), color-stop(100%,#e4782f)); 
+background: -webkit-linear-gradient(top,  #ffaa67 0%,#e4782f 100%); 
+background: -o-linear-gradient(top,  #ffaa67 0%,#e4782f 100%); 
+background: -ms-linear-gradient(top,  #ffaa67 0%,#e4782f 100%); 
+background: linear-gradient(top,  #ffaa67 0%,#e4782f 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaa67', endColorstr='#e4782f',GradientType=0 ); 
+
+border-color:#EFA046 #FF893B #C96827;
+}
+
+.pbar_blue .ui-progressbar-value.ui-widget-header {
+background: #7fb8e6; 
+background: -moz-linear-gradient(top, #7fb8e6 0%, #4e87c4 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7fb8e6), color-stop(100%,#4e87c4)); 
+background: -webkit-linear-gradient(top, #7fb8e6 0%,#4e87c4 100%); 
+background: -o-linear-gradient(top, #7fb8e6 0%,#4e87c4 100%); 
+background: -ms-linear-gradient(top, #7fb8e6 0%,#4e87c4 100%); 
+background: linear-gradient(top, #7fb8e6 0%,#4e87c4 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fb8e6', endColorstr='#4e87c4',GradientType=0 ); 
+border:1px solid #0088F7;
+border-color:#0088F7 #0088F7 #2B5893;
+}
+
+.pbar_green .ui-progressbar-value.ui-widget-header {
+background: #b8d030; 
+background: -moz-linear-gradient(top,  #b8d030 0%, #8ca924 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b8d030), color-stop(100%,#8ca924)); 
+background: -webkit-linear-gradient(top,  #b8d030 0%,#8ca924 100%); 
+background: -o-linear-gradient(top,  #b8d030 0%,#8ca924 100%); 
+background: -ms-linear-gradient(top,  #b8d030 0%,#8ca924 100%); 
+background: linear-gradient(top,  #b8d030 0%,#8ca924 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8d030', endColorstr='#8ca924',GradientType=0 ); 
+
+border:1px solid #82A434;
+border-color:#82A434 #82A434 #617D26;
+}
+
+.pbar_black .ui-progressbar-value.ui-widget-header {
+background: #6e6e6e; 
+background: -moz-linear-gradient(top,  #6e6e6e 0%, #2a2a2a 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6e6e6e), color-stop(100%,#2a2a2a)); 
+background: -webkit-linear-gradient(top,  #6e6e6e 0%,#2a2a2a 100%); 
+background: -o-linear-gradient(top,  #6e6e6e 0%,#2a2a2a 100%); 
+background: -ms-linear-gradient(top,  #6e6e6e 0%,#2a2a2a 100%); 
+background: linear-gradient(top,  #6e6e6e 0%,#2a2a2a 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e6e6e', endColorstr='#2a2a2a',GradientType=0 ); 
+
+border:1px solid #000;
+border-color:#222 #111 #000;
+}
+
+.pbar_red .ui-progressbar-value.ui-widget-header {
+background: #ff8e8e; 
+background: -moz-linear-gradient(top,  #ff8e8e 0%, #ff2d2d 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff8e8e), color-stop(100%,#ff2d2d)); 
+background: -webkit-linear-gradient(top,  #ff8e8e 0%,#ff2d2d 100%); 
+background: -o-linear-gradient(top,  #ff8e8e 0%,#ff2d2d 100%); 
+background: -ms-linear-gradient(top,  #ff8e8e 0%,#ff2d2d 100%); 
+background: linear-gradient(top,  #ff8e8e 0%,#ff2d2d 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8e8e', endColorstr='#ff2d2d',GradientType=0 ); 
+
+border:1px solid #FC7A78;
+border-color:#FC7A78 #D14B49 #D13330;
+}

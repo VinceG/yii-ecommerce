@@ -1,0 +1,701 @@
+/*
+-----------------------------------------------------
+=====================================================
+	GLOBAL SPECIFIC ICONS
+=====================================================
+-----------------------------------------------------
+*/
+
+
+/*--------------------------
+  16px  
+----------------------------*/
+
+/* Sprite /16px */
+.icon16_sprite {
+display: inline-block;
+width: 12px;
+height: 16px;
+margin: 0 4px;
+background-image: url(../images/16px_222_sprite.png);
+background-repeat: no-repeat;
+background-position: 0 0;
+}/* Default BG color #222 (black icons) */
+
+.icon16_sprite_red {
+display: inline-block;
+width: 12px;
+height: 16px;
+margin: 0 4px;
+background-image: url(../images/16px_red_sprite.png);
+background-repeat: no-repeat;
+background-position: 0 0;
+}/* Default BG color #FF0000 (red icons) */
+
+.icon16_sprite_green {
+display: inline-block;
+width: 12px;
+height: 16px;
+margin: 0 4px;
+background-image: url(../images/16px_green_sprite.png);
+background-repeat: no-repeat;
+background-position: 0 0;
+}/* Default BG color #49A61B (green icons) */
+
+.icon16_sprite_blue {
+display: inline-block;
+width: 12px;
+height: 16px;
+margin: 0 4px;
+background-image: url(../images/16px_blue_sprite.png);
+background-repeat: no-repeat;
+background-position: 0 0;
+}/* Default BG color #1690EE (blue icons) */
+
+/* Icon position /16px */
+.i_3d{ background-position: 0 0;  } 
+.i_abacus{ background-position: 0 -34px;  } 
+.i_access_point{ background-position: 0 -68px;  } 
+.i_add{ background-position: 0 -102px;  } 
+.i_address_book{ background-position: 0 -136px;  } 
+.i_administrator{ background-position: 0 -170px;  } 
+.i_agent{ background-position: 0 -204px;  } 
+.i_aim{ background-position: 0 -238px;  } 
+.i_alien{ background-position: 0 -272px;  } 
+.i_align_horizontal_bottom{ background-position: 0 -306px;  } 
+.i_align_horizontal_center{ background-position: 0 -340px;  } 
+.i_align_horizontal_top{ background-position: 0 -374px;  } 
+.i_align_vertical_left{ background-position: 0 -408px;  } 
+.i_align_vertical_right{ background-position: 0 -442px;  } 
+.i_anonymous{ background-position: 0 -476px;  } 
+.i_antenna2{ background-position: 0 -510px;  } 
+.i_arrow_bidirectional{ background-position: 0 -544px;  } 
+.i_arrow_down{ background-position: 0 -578px;  } 
+.i_arrow_left{ background-position: 0 -612px;  } 
+.i_arrow_right{ background-position: 0 -646px;  } 
+.i_arrow_up{ background-position: 0 -680px;  } 
+.i_arrowhead_down{ background-position: 0 -714px;  } 
+.i_arrowhead_left{ background-position: 0 -748px;  } 
+.i_arrowhead_right{ background-position: 0 -782px;  } 
+.i_arrowhead_up{ background-position: 0 -816px;  } 
+.i_audio_console{ background-position: 0 -850px;  } 
+.i_audio_equalizer{ background-position: 0 -884px;  } 
+.i_audio_knob2{ background-position: 0 -918px;  } 
+.i_audio_volume_bars{ background-position: 0 -952px;  } 
+.i_backup{ background-position: 0 -986px;  } 
+.i_balance{ background-position: 0 -1020px;  } 
+.i_ball_baseball{ background-position: 0 -1054px;  } 
+.i_ball_beach{ background-position: 0 -1088px;  } 
+.i_ball_football{ background-position: 0 -1122px;  } 
+.i_ball_football2{ background-position: 0 -1156px;  } 
+.i_ball_volleyball{ background-position: 0 -1190px;  } 
+.i_band_aid{ background-position: 0 -1224px;  } 
+.i_bell{ background-position: 0 -1258px;  } 
+.i_bezier{ background-position: 0 -1292px;  } 
+.i_black_list{ background-position: 0 -1326px;  } 
+.i_black_list_folder{ background-position: 0 -1360px;  } 
+.i_blur{ background-position: 0 -1394px;  } 
+.i_bomb{ background-position: 0 -1428px;  } 
+.i_book{ background-position: 0 -1462px;  } 
+.i_bookmark{ background-position: 0 -1496px;  } 
+.i_briefcase{ background-position: 0 -1530px;  } 
+.i_brightness{ background-position: 0 -1564px;  } 
+.i_broadband{ background-position: 0 -1598px;  } 
+.i_broken_link{ background-position: 0 -1632px;  } 
+.i_broken_link2{ background-position: 0 -1666px;  } 
+.i_brush{ background-position: 0 -1700px;  } 
+.i_brush_wide{ background-position: 0 -1734px;  } 
+.i_bus{ background-position: 0 -1768px;  } 
+.i_calculator{ background-position: 0 -1802px;  } 
+.i_calculator_buttons{ background-position: 0 -1836px;  } 
+.i_calendar{ background-position: 0 -1870px;  } 
+.i_calendar_month{ background-position: 0 -1904px;  } 
+.i_calendar_year{ background-position: 0 -1938px;  } 
+.i_camera{ background-position: 0 -1972px;  } 
+.i_cancel{ background-position: -27px 0;  } 
+.i_cd_disk{ background-position: -27px -34px;  } 
+.i_certificate2{ background-position: -27px -68px;  } 
+.i_chat_exclamation{ background-position: -27px -102px;  } 
+.i_checkmark{ background-position: -27px -136px;  } 
+.i_clapperboard{ background-position: -27px -170px;  } 
+.i_clip{ background-position: -27px -204px;  } 
+.i_clipboard{ background-position: -27px -238px;  } 
+.i_clock{ background-position: -27px -272px;  } 
+.i_close{ background-position: -27px -306px;  } 
+.i_cloud{ background-position: -27px -340px;  } 
+.i_cocktail{ background-position: -27px -374px;  } 
+.i_coffee1{ background-position: -27px -408px;  } 
+.i_contrast{ background-position: -27px -442px;  } 
+.i_copy{ background-position: -27px -476px;  } 
+.i_copy2{ background-position: -27px -510px;  } 
+.i_couple{ background-position: -27px -544px;  } 
+.i_crop{ background-position: -27px -578px;  } 
+.i_cross{ background-position: -27px -612px;  } 
+.i_cupcake{ background-position: -27px -646px;  } 
+.i_currency_sign_dollar{ background-position: -27px -680px;  } 
+.i_currency_sign_euro{ background-position: -27px -714px;  } 
+.i_currency_sign_pound{ background-position: -27px -748px;  } 
+.i_cutter{ background-position: -27px -782px;  } 
+.i_delete{ background-position: -27px -816px;  } 
+.i_dimensions{ background-position: -27px -850px;  } 
+.i_diskette{ background-position: -27px -884px;  } 
+.i_dispatch{ background-position: -27px -918px;  } 
+.i_distribute_horizontal_center{ background-position: -27px -952px;  } 
+.i_distribute_vertical_center{ background-position: -27px -986px;  } 
+.i_document{ background-position: -27px -1020px;  } 
+.i_document1{ background-position: -27px -1054px;  } 
+.i_door{ background-position: -27px -1088px;  } 
+.i_download{ background-position: -27px -1122px;  } 
+.i_dropper{ background-position: -27px -1156px;  } 
+.i_earphones{ background-position: -27px -1190px;  } 
+.i_edit{ background-position: -27px -1224px;  } 
+.i_envelope{ background-position: -27px -1258px;  } 
+.i_envelope_open2{ background-position: -27px -1292px;  } 
+.i_eraser{ background-position: -27px -1326px;  } 
+.i_eye_open{ background-position: -27px -1360px;  } 
+.i_fax{ background-position: -27px -1394px;  } 
+.i_file{ background-position: -27px -1428px;  } 
+.i_file_transfer{ background-position: -27px -1462px;  } 
+.i_fill{ background-position: -27px -1496px;  } 
+.i_film_reel{ background-position: -27px -1530px;  } 
+.i_flash{ background-position: -27px -1564px;  } 
+.i_flip_horizontal{ background-position: -27px -1598px;  } 
+.i_flip_vertical{ background-position: -27px -1632px;  } 
+.i_flower{ background-position: -27px -1666px;  } 
+.i_folder{ background-position: -27px -1700px;  } 
+.i_frames{ background-position: -27px -1734px;  } 
+.i_frames2{ background-position: -27px -1768px;  } 
+.i_gear{ background-position: -27px -1802px;  } 
+.i_group{ background-position: -27px -1836px;  } 
+.i_hand_handshake{ background-position: -27px -1870px;  } 
+.i_hand_point{ background-position: -27px -1904px;  } 
+.i_hand_share{ background-position: -27px -1938px;  } 
+.i_hand_smudge{ background-position: -27px -1972px;  } 
+.i_hand_thumbsdown{ background-position: -54px 0;  } 
+.i_hand_thumbsup{ background-position: -54px -34px;  } 
+.i_headset{ background-position: -54px -68px;  } 
+.i_heart{ background-position: -54px -102px;  } 
+.i_height{ background-position: -54px -136px;  } 
+.i_help{ background-position: -54px -170px;  } 
+.i_history2{ background-position: -54px -204px;  } 
+.i_history3{ background-position: -54px -238px;  } 
+.i_home{ background-position: -54px -272px;  } 
+.i_hourglass{ background-position: -54px -306px;  } 
+.i_info{ background-position: -54px -340px;  } 
+.i_ip{ background-position: -54px -374px;  } 
+.i_ipod{ background-position: -54px -408px;  } 
+.i_key{ background-position: -54px -442px;  } 
+.i_lan_cable{ background-position: -54px -476px;  } 
+.i_lcd{ background-position: -54px -510px;  } 
+.i_lightbulb_off{ background-position: -54px -544px;  } 
+.i_lightbulb_on{ background-position: -54px -578px;  } 
+.i_link{ background-position: -54px -612px;  } 
+.i_link2{ background-position: -54px -646px;  } 
+.i_list{ background-position: -54px -680px;  } 
+.i_list2{ background-position: -54px -714px;  } 
+.i_location{ background-position: -54px -748px;  } 
+.i_lock{ background-position: -54px -782px;  } 
+.i_lock_open{ background-position: -54px -816px;  } 
+.i_mastercard{ background-position: -54px -850px;  } 
+.i_match_width_and_height{ background-position: -54px -884px;  } 
+.i_messenger{ background-position: -54px -918px;  } 
+.i_microphone{ background-position: -54px -952px;  } 
+.i_mobile{ background-position: -54px -986px;  } 
+.i_money_bag_dollar{ background-position: -54px -1020px;  } 
+.i_monitor{ background-position: -54px -1054px;  } 
+.i_moon{ background-position: -54px -1088px;  } 
+.i_motion_blur{ background-position: -54px -1122px;  } 
+.i_mouse{ background-position: -54px -1156px;  } 
+.i_move{ background-position: -54px -1190px;  } 
+.i_music_beamed_note{ background-position: -54px -1224px;  } 
+.i_music_eighth_note{ background-position: -54px -1258px;  } 
+.i_network_monitor{ background-position: -54px -1292px;  } 
+.i_notepad{ background-position: -54px -1326px;  } 
+.i_ntsc_bars{ background-position: -54px -1360px;  } 
+.i_organizational_chart{ background-position: -54px -1394px;  } 
+.i_palette{ background-position: -54px -1428px;  } 
+.i_paste{ background-position: -54px -1462px;  } 
+.i_pen{ background-position: -54px -1496px;  } 
+.i_pen_drive{ background-position: -54px -1530px;  } 
+.i_pencil{ background-position: -54px -1564px;  } 
+.i_phone_book{ background-position: -54px -1598px;  } 
+.i_photoshop{ background-position: -54px -1632px;  } 
+.i_plane{ background-position: -54px -1666px;  } 
+.i_playlist{ background-position: -54px -1700px;  } 
+.i_polygon{ background-position: -54px -1734px;  } 
+.i_pop-up{ background-position: -54px -1768px;  } 
+.i_preview{ background-position: -54px -1802px;  } 
+.i_preview2{ background-position: -54px -1836px;  } 
+.i_print{ background-position: -54px -1870px;  } 
+.i_printer{ background-position: -54px -1904px;  } 
+.i_product{ background-position: -54px -1938px;  } 
+.i_progress_bar{ background-position: -54px -1972px;  } 
+.i_protocol1{ background-position: -81px 0;  } 
+.i_protocol2{ background-position: -81px -34px;  } 
+.i_pyramid{ background-position: -81px -68px;  } 
+.i_quarantine{ background-position: -81px -102px;  } 
+.i_random{ background-position: -81px -136px;  } 
+.i_red_cross{ background-position: -81px -170px;  } 
+.i_red_eye{ background-position: -81px -204px;  } 
+.i_refresh{ background-position: -81px -238px;  } 
+.i_reload{ background-position: -81px -272px;  } 
+.i_repeat{ background-position: -81px -306px;  } 
+.i_resize{ background-position: -81px -340px;  } 
+.i_round{ background-position: -81px -374px;  } 
+.i_rounded_rectangle{ background-position: -81px -408px;  } 
+.i_ruler_square{ background-position: -81px -442px;  } 
+.i_salesman{ background-position: -81px -476px;  } 
+.i_satellite_dish{ background-position: -81px -510px;  } 
+.i_scissors{ background-position: -81px -544px;  } 
+.i_secure_connection{ background-position: -81px -578px;  } 
+.i_security{ background-position: -81px -612px;  } 
+.i_send_crate{ background-position: -81px -646px;  } 
+.i_shopping_basket{ background-position: -81px -680px;  } 
+.i_shopping_cart{ background-position: -81px -714px;  } 
+.i_smiley{ background-position: -81px -748px;  } 
+.i_smiley_angry{ background-position: -81px -782px;  } 
+.i_smiley_confused{ background-position: -81px -816px;  } 
+.i_smiley_grin{ background-position: -81px -850px;  } 
+.i_socket{ background-position: -81px -884px;  } 
+.i_speaker{ background-position: -81px -918px;  } 
+.i_speech_balloon{ background-position: -81px -952px;  } 
+.i_spiral{ background-position: -81px -986px;  } 
+.i_spray{ background-position: -81px -1020px;  } 
+.i_spreadsheet{ background-position: -81px -1054px;  } 
+.i_stamp{ background-position: -81px -1088px;  } 
+.i_star{ background-position: -81px -1122px;  } 
+.i_stats_bar_chart{ background-position: -81px -1156px;  } 
+.i_stats_line_chart{ background-position: -81px -1190px;  } 
+.i_stats_pie_chart{ background-position: -81px -1224px;  } 
+.i_technical_hammer{ background-position: -81px -1258px;  } 
+.i_technical_screwdriver{ background-position: -81px -1292px;  } 
+.i_technical_wrench{ background-position: -81px -1326px;  } 
+.i_trash_can{ background-position: -81px -1360px;  } 
+.i_treasure_chest{ background-position: -81px -1394px;  } 
+.i_trojan{ background-position: -81px -1428px;  } 
+.i_trojan2{ background-position: -81px -1462px;  } 
+.i_trophy{ background-position: -81px -1496px;  } 
+.i_truck{ background-position: -81px -1530px;  } 
+.i_upload{ background-position: -81px -1564px;  } 
+.i_usb2{ background-position: -81px -1598px;  } 
+.i_user{ background-position: -81px -1632px;  } 
+.i_user_woman{ background-position: -81px -1666px;  } 
+.i_white_list_folder{ background-position: -81px -1700px;  } 
+.i_window{ background-position: -81px -1734px;  } 
+.i_windows{ background-position: -81px -1768px;  } 
+.i_wizard{ background-position: -81px -1802px;  } 
+.i_world{ background-position: -81px -1836px;  } 
+.i_zoom{ background-position: -81px -1870px;  } 
+.i_zoom_in{ background-position: -81px -1904px;  } 
+.i_zoom_out{ background-position: -81px -1938px;  } 
+
+
+/* Box title icon /16px */
+.box .title .icon16_sprite,
+.box .title .icon16_sprite_red,
+.box .title .icon16_sprite_green,
+.box .title .icon16_sprite_blue
+ {
+margin-left: 1px; 
+margin-right: 6px;
+position: relative;
+left: 0;
+top: 0px;
+float: left;
+}
+
+/* Button /16px */
+.button .icon16_sprite,
+.button .icon16_sprite_red,
+.button .icon16_sprite_green,
+.button .icon16_sprite_blue 
+{
+position: relative;
+top: -2px; 
+padding: 0;
+float: left;
+}
+
+.button .icon16_sprite.b_right,
+.button .icon16_sprite_red.b_right,
+.button .icon16_sprite_green.b_right,
+.button .icon16_sprite_blue.b_right 
+{
+position: relative;
+top: -2px; 
+padding: 0;
+float: right;
+margin-left: 6px; 
+margin-right: 1px;
+}
+
+/* Button Icon to center no-text /16px */
+.button.with_icon16_notext { 
+padding: 5px !important;
+vertical-align: middle;
+font-size: 12px !important;
+line-height: 20px;
+}
+
+.button.with_icon16_notext .icon16_sprite{ 
+float: left;
+}
+
+
+
+/*For demo only begin*/
+.sprite_icons_demo_show {
+width: 20px !important;
+}
+
+.sprite_icons_demo_show span {
+margin-bottom: 5px;
+}
+
+
+.sprite_mark {
+display: block;
+padding: 0 4px;
+background: #fff;
+border: 1px solid #ccc;
+margin: 0;
+font-size: 10px;
+line-height: 15px !important;
+outline: none;
+margin-bottom: 12px;
+}
+
+@-moz-document url-prefix() {
+  .sprite_mark {
+     padding: 1px 4px;
+	 margin-bottom: 13px;
+  }
+  .sprite_icons_demo_show span {
+	margin-bottom: .492em;
+	}
+}
+/*For demo only end*/
+
+
+/*--------------------------
+  24px  
+----------------------------*/
+
+/* Sprite /24px */
+.icon24_sprite {
+display: inline-block;
+width: 24px;
+height: 24px;
+margin: 0;
+background-image: url(../images/24px_333_sprite.png);
+background-repeat: no-repeat;
+background-position: 0 0;
+}
+
+/* Icon position /24px */
+.i24_3d{ background-position: 0 0;  } 
+.i24_abacus{ background-position: 0 -39px;  } 
+.i24_access_point{ background-position: 0 -78px;  } 
+.i24_add{ background-position: 0 -117px;  } 
+.i24_address_book{ background-position: 0 -156px;  } 
+.i24_administrator{ background-position: 0 -195px;  } 
+.i24_agent{ background-position: 0 -234px;  } 
+.i24_aim{ background-position: 0 -273px;  } 
+.i24_alien_gray{ background-position: 0 -312px;  } 
+.i24_align_horizontal_bottom{ background-position: 0 -351px;  } 
+.i24_align_horizontal_top{ background-position: 0 -390px;  } 
+.i24_align_vertical_left{ background-position: 0 -429px;  } 
+.i24_align_vertical_right{ background-position: 0 -468px;  } 
+.i24_animation{ background-position: 0 -507px;  } 
+.i24_anonymous{ background-position: 0 -546px;  } 
+.i24_antenna2{ background-position: 0 -585px;  } 
+.i24_arrow_bidirectional{ background-position: 0 -624px;  } 
+.i24_arrow_down{ background-position: 0 -663px;  } 
+.i24_arrow_left{ background-position: 0 -702px;  } 
+.i24_arrow_right{ background-position: 0 -741px;  } 
+.i24_arrow_up{ background-position: 0 -780px;  } 
+.i24_arrowhead_down{ background-position: 0 -819px;  } 
+.i24_arrowhead_left{ background-position: 0 -858px;  } 
+.i24_arrowhead_right{ background-position: 0 -897px;  } 
+.i24_arrowhead_up{ background-position: 0 -936px;  } 
+.i24_asymmetric_network{ background-position: 0 -975px;  } 
+.i24_audio_console{ background-position: 0 -1014px;  } 
+.i24_audio_equalizer{ background-position: 0 -1053px;  } 
+.i24_audio_knob2{ background-position: 0 -1092px;  } 
+.i24_audio_volume_bars{ background-position: 0 -1131px;  } 
+.i24_audio_volume_slider{ background-position: 0 -1170px;  } 
+.i24_backup{ background-position: 0 -1209px;  } 
+.i24_backup_server{ background-position: 0 -1248px;  } 
+.i24_balance{ background-position: 0 -1287px;  } 
+.i24_ball_baseball{ background-position: 0 -1326px;  } 
+.i24_ball_basketball{ background-position: 0 -1365px;  } 
+.i24_ball_football2{ background-position: 0 -1404px;  } 
+.i24_band_aid{ background-position: 0 -1443px;  } 
+.i24_bank_transaction{ background-position: 0 -1482px;  } 
+.i24_bell{ background-position: 0 -1521px;  } 
+.i24_black_list{ background-position: 0 -1560px;  } 
+.i24_black_list_folder{ background-position: 0 -1599px;  } 
+.i24_blur{ background-position: 0 -1638px;  } 
+.i24_bomb{ background-position: 0 -1677px;  } 
+.i24_book{ background-position: 0 -1716px;  } 
+.i24_bookmark{ background-position: 0 -1755px;  } 
+.i24_brightness{ background-position: 0 -1794px;  } 
+.i24_broadband{ background-position: 0 -1833px;  } 
+.i24_broken_link{ background-position: 0 -1872px;  } 
+.i24_broken_link2{ background-position: 0 -1911px;  } 
+.i24_brush{ background-position: 0 -1950px;  } 
+.i24_brush_wide{ background-position: -39px 0;  } 
+.i24_bus{ background-position: -39px -39px;  } 
+.i24_cabinet{ background-position: -39px -78px;  } 
+.i24_calculator{ background-position: -39px -117px;  } 
+.i24_calculator_buttons{ background-position: -39px -156px;  } 
+.i24_calendar{ background-position: -39px -195px;  } 
+.i24_calendar_month{ background-position: -39px -234px;  } 
+.i24_calendar_year{ background-position: -39px -273px;  } 
+.i24_camera{ background-position: -39px -312px;  } 
+.i24_cancel{ background-position: -39px -351px;  } 
+.i24_certificate1{ background-position: -39px -390px;  } 
+.i24_certificate2{ background-position: -39px -429px;  } 
+.i24_chat_exclamation{ background-position: -39px -468px;  } 
+.i24_checkmark{ background-position: -39px -507px;  } 
+.i24_chroma_key{ background-position: -39px -546px;  } 
+.i24_clapperboard{ background-position: -39px -585px;  } 
+.i24_clip{ background-position: -39px -624px;  } 
+.i24_clipboard{ background-position: -39px -663px;  } 
+.i24_clock{ background-position: -39px -702px;  } 
+.i24_close{ background-position: -39px -741px;  } 
+.i24_cloud{ background-position: -39px -780px;  } 
+.i24_coffee{ background-position: -39px -819px;  } 
+.i24_color{ background-position: -39px -858px;  } 
+.i24_connect2{ background-position: -39px -897px;  } 
+.i24_contract{ background-position: -39px -936px;  } 
+.i24_contract2{ background-position: -39px -975px;  } 
+.i24_contrast{ background-position: -39px -1014px;  } 
+.i24_cookie{ background-position: -39px -1053px;  } 
+.i24_copy{ background-position: -39px -1092px;  } 
+.i24_copy2{ background-position: -39px -1131px;  } 
+.i24_couple{ background-position: -39px -1170px;  } 
+.i24_crop{ background-position: -39px -1209px;  } 
+.i24_cross{ background-position: -39px -1248px;  } 
+.i24_currency_sign_dollar{ background-position: -39px -1287px;  } 
+.i24_currency_sign_euro{ background-position: -39px -1326px;  } 
+.i24_cutter{ background-position: -39px -1365px;  } 
+.i24_delete{ background-position: -39px -1404px;  } 
+.i24_diary{ background-position: -39px -1443px;  } 
+.i24_dimensions{ background-position: -39px -1482px;  } 
+.i24_disconnect2{ background-position: -39px -1521px;  } 
+.i24_diskette{ background-position: -39px -1560px;  } 
+.i24_dispatch{ background-position: -39px -1599px;  } 
+.i24_dispatch_order{ background-position: -39px -1638px;  } 
+.i24_distribute_horizontal_center{ background-position: -39px -1677px;  } 
+.i24_distribute_horizontal_left{ background-position: -39px -1716px;  } 
+.i24_distribute_horizontal_right{ background-position: -39px -1755px;  } 
+.i24_distribute_vertical_bottom{ background-position: -39px -1794px;  } 
+.i24_distribute_vertical_center{ background-position: -39px -1833px;  } 
+.i24_distribute_vertical_top{ background-position: -39px -1872px;  } 
+.i24_document1{ background-position: -39px -1911px;  } 
+.i24_download{ background-position: -39px -1950px;  } 
+.i24_dropper{ background-position: -78px 0;  } 
+.i24_earphones{ background-position: -78px -39px;  } 
+.i24_edit{ background-position: -78px -78px;  } 
+.i24_envelope{ background-position: -78px -117px;  } 
+.i24_envelope_open{ background-position: -78px -156px;  } 
+.i24_eraser{ background-position: -78px -195px;  } 
+.i24_eye_open{ background-position: -78px -234px;  } 
+.i24_fax{ background-position: -78px -273px;  } 
+.i24_file{ background-position: -78px -312px;  } 
+.i24_file_transfer{ background-position: -78px -351px;  } 
+.i24_file_transfer2{ background-position: -78px -390px;  } 
+.i24_fill{ background-position: -78px -429px;  } 
+.i24_film_reel{ background-position: -78px -468px;  } 
+.i24_flash{ background-position: -78px -507px;  } 
+.i24_flip_horizontal{ background-position: -78px -546px;  } 
+.i24_flip_vertical{ background-position: -78px -585px;  } 
+.i24_flower{ background-position: -78px -624px;  } 
+.i24_folder{ background-position: -78px -663px;  } 
+.i24_frames{ background-position: -78px -702px;  } 
+.i24_frames2{ background-position: -78px -741px;  } 
+.i24_gateway{ background-position: -78px -780px;  } 
+.i24_gear{ background-position: -78px -819px;  } 
+.i24_group{ background-position: -78px -858px;  } 
+.i24_hand_handshake{ background-position: -78px -897px;  } 
+.i24_hand_point{ background-position: -78px -936px;  } 
+.i24_hand_share{ background-position: -78px -975px;  } 
+.i24_hand_smudge{ background-position: -78px -1014px;  } 
+.i24_hand_thumbsdown{ background-position: -78px -1053px;  } 
+.i24_hand_thumbsup{ background-position: -78px -1092px;  } 
+.i24_hard_disk2{ background-position: -78px -1131px;  } 
+.i24_headset{ background-position: -78px -1170px;  } 
+.i24_heart{ background-position: -78px -1209px;  } 
+.i24_height{ background-position: -78px -1248px;  } 
+.i24_help{ background-position: -78px -1287px;  } 
+.i24_history2{ background-position: -78px -1326px;  } 
+.i24_history3{ background-position: -78px -1365px;  } 
+.i24_home{ background-position: -78px -1404px;  } 
+.i24_hourglass{ background-position: -78px -1443px;  } 
+.i24_id{ background-position: -78px -1482px;  } 
+.i24_info{ background-position: -78px -1521px;  } 
+.i24_invoice{ background-position: -78px -1560px;  } 
+.i24_ip{ background-position: -78px -1599px;  } 
+.i24_key{ background-position: -78px -1638px;  } 
+.i24_lcd{ background-position: -78px -1677px;  } 
+.i24_lightbulb_off{ background-position: -78px -1716px;  } 
+.i24_lightbulb_on{ background-position: -78px -1755px;  } 
+.i24_link{ background-position: -78px -1794px;  } 
+.i24_link2{ background-position: -78px -1833px;  } 
+.i24_list{ background-position: -78px -1872px;  } 
+.i24_list2{ background-position: -78px -1911px;  } 
+.i24_location{ background-position: -78px -1950px;  } 
+.i24_lock{ background-position: -117px 0;  } 
+.i24_lock_open{ background-position: -117px -39px;  } 
+.i24_mask{ background-position: -117px -78px;  } 
+.i24_mastercard{ background-position: -117px -117px;  } 
+.i24_match_width_and_height{ background-position: -117px -156px;  } 
+.i24_messenger{ background-position: -117px -195px;  } 
+.i24_microphone{ background-position: -117px -234px;  } 
+.i24_midi_keyboard{ background-position: -117px -273px;  } 
+.i24_money_bag_dollar{ background-position: -117px -312px;  } 
+.i24_monitor{ background-position: -117px -351px;  } 
+.i24_motion_blur{ background-position: -117px -390px;  } 
+.i24_mouse{ background-position: -117px -429px;  } 
+.i24_move{ background-position: -117px -468px;  } 
+.i24_music_eighth_note{ background-position: -117px -507px;  } 
+.i24_network_monitor{ background-position: -117px -546px;  } 
+.i24_notepad{ background-position: -117px -585px;  } 
+.i24_organizational_chart{ background-position: -117px -624px;  } 
+.i24_osi_model{ background-position: -117px -663px;  } 
+.i24_osi_model2{ background-position: -117px -702px;  } 
+.i24_palette{ background-position: -117px -741px;  } 
+.i24_password{ background-position: -117px -780px;  } 
+.i24_password2{ background-position: -117px -819px;  } 
+.i24_paste{ background-position: -117px -858px;  } 
+.i24_paste2{ background-position: -117px -897px;  } 
+.i24_pen{ background-position: -117px -936px;  } 
+.i24_pen_drive{ background-position: -117px -975px;  } 
+.i24_pencil{ background-position: -117px -1014px;  } 
+.i24_photoshop{ background-position: -117px -1053px;  } 
+.i24_plane{ background-position: -117px -1092px;  } 
+.i24_polygon{ background-position: -117px -1131px;  } 
+.i24_pop-up{ background-position: -117px -1170px;  } 
+.i24_preview{ background-position: -117px -1209px;  } 
+.i24_preview2{ background-position: -117px -1248px;  } 
+.i24_print{ background-position: -117px -1287px;  } 
+.i24_printer{ background-position: -117px -1326px;  } 
+.i24_product{ background-position: -117px -1365px;  } 
+.i24_progress_bar{ background-position: -117px -1404px;  } 
+.i24_protocol{ background-position: -117px -1443px;  } 
+.i24_protocol1{ background-position: -117px -1482px;  } 
+.i24_protocol2{ background-position: -117px -1521px;  } 
+.i24_purchase{ background-position: -117px -1560px;  } 
+.i24_pyramid{ background-position: -117px -1599px;  } 
+.i24_random{ background-position: -117px -1638px;  } 
+.i24_red_cross{ background-position: -117px -1677px;  } 
+.i24_refresh{ background-position: -117px -1716px;  } 
+.i24_reload{ background-position: -117px -1755px;  } 
+.i24_repeat{ background-position: -117px -1794px;  } 
+.i24_resize{ background-position: -117px -1833px;  } 
+.i24_rotate{ background-position: -117px -1872px;  } 
+.i24_round{ background-position: -117px -1911px;  } 
+.i24_rounded_rectangle{ background-position: -117px -1950px;  } 
+.i24_router{ background-position: -156px 0;  } 
+.i24_ruler_square{ background-position: -156px -39px;  } 
+.i24_salesman{ background-position: -156px -78px;  } 
+.i24_scissors{ background-position: -156px -117px;  } 
+.i24_screen_zoom_in{ background-position: -156px -156px;  } 
+.i24_screen_zoom_out{ background-position: -156px -195px;  } 
+.i24_secure_connection{ background-position: -156px -234px;  } 
+.i24_security{ background-position: -156px -273px;  } 
+.i24_send_container{ background-position: -156px -312px;  } 
+.i24_send_crate{ background-position: -156px -351px;  } 
+.i24_shopping_basket{ background-position: -156px -390px;  } 
+.i24_shopping_cart{ background-position: -156px -429px;  } 
+.i24_smiley{ background-position: -156px -468px;  } 
+.i24_smiley_angry{ background-position: -156px -507px;  } 
+.i24_smiley_confused{ background-position: -156px -546px;  } 
+.i24_smiley_grin{ background-position: -156px -585px;  } 
+.i24_smiley_in_love{ background-position: -156px -624px;  } 
+.i24_smiley_sad{ background-position: -156px -663px;  } 
+.i24_socket{ background-position: -156px -702px;  } 
+.i24_spam{ background-position: -156px -741px;  } 
+.i24_spam2{ background-position: -156px -780px;  } 
+.i24_speaker{ background-position: -156px -819px;  } 
+.i24_speech_balloon{ background-position: -156px -858px;  } 
+.i24_spiral{ background-position: -156px -897px;  } 
+.i24_spray{ background-position: -156px -936px;  } 
+.i24_spreadsheet{ background-position: -156px -975px;  } 
+.i24_square{ background-position: -156px -1014px;  } 
+.i24_stamp{ background-position: -156px -1053px;  } 
+.i24_star{ background-position: -156px -1092px;  } 
+.i24_stats_bar_chart{ background-position: -156px -1131px;  } 
+.i24_stats_line_chart{ background-position: -156px -1170px;  } 
+.i24_stats_pie_chart{ background-position: -156px -1209px;  } 
+.i24_stop{ background-position: -156px -1248px;  } 
+.i24_sun{ background-position: -156px -1287px;  } 
+.i24_symmetric_network{ background-position: -156px -1326px;  } 
+.i24_technical_hammer{ background-position: -156px -1365px;  } 
+.i24_technical_screwdriver{ background-position: -156px -1404px;  } 
+.i24_technical_wrench{ background-position: -156px -1443px;  } 
+.i24_trash_can{ background-position: -156px -1482px;  } 
+.i24_treasure_chest{ background-position: -156px -1521px;  } 
+.i24_trojan{ background-position: -156px -1560px;  } 
+.i24_trojan2{ background-position: -156px -1599px;  } 
+.i24_upload{ background-position: -156px -1638px;  } 
+.i24_usb{ background-position: -156px -1677px;  } 
+.i24_usb2{ background-position: -156px -1716px;  } 
+.i24_user{ background-position: -156px -1755px;  } 
+.i24_user_woman{ background-position: -156px -1794px;  } 
+.i24_visa{ background-position: -156px -1833px;  } 
+.i24_wave_amplify_amplitude{ background-position: -156px -1872px;  } 
+.i24_wave_high_frequency{ background-position: -156px -1911px;  } 
+.i24_white_list{ background-position: -156px -1950px;  } 
+.i24_white_list_folder{ background-position: -195px 0;  } 
+.i24_width{ background-position: -195px -39px;  } 
+.i24_window{ background-position: -195px -78px;  } 
+.i24_windows{ background-position: -195px -117px;  } 
+.i24_wire_transfer{ background-position: -195px -156px;  } 
+.i24_wizard{ background-position: -195px -195px;  } 
+.i24_world{ background-position: -195px -234px;  } 
+.i24_zoom{ background-position: -195px -273px;  } 
+.i24_zoom_in{ background-position: -195px -312px;  } 
+.i24_zoom_out{ background-position: -195px -351px;  } 
+
+
+/* Button Icon to center no-text /24px */
+.button.with_icon24_notext { 
+padding: 5px !important;
+vertical-align: middle;
+font-size: 12px !important;
+line-height: 25px;
+}
+
+.button.with_icon24_notext .icon24_sprite{ 
+float: left;
+margin-right: auto;
+}
+
+/* Button Icon to left + text /24px */
+.button.with_icon24_left { 
+padding: 5px 12px 5px 7px !important;
+vertical-align: middle;
+font-size: 12px !important;
+line-height: 25px;
+}
+
+.button.with_icon24_left .icon24_sprite{ 
+float: left;
+margin-right: 7px;
+}
+
+/* Button Icon to right + text /24px */
+.button.with_icon24_right { 
+padding: 5px 7px 5px 12px !important;
+vertical-align: middle;
+font-size: 12px !important;
+line-height: 25px;
+}
+
+.button.with_icon24_right .icon24_sprite{ 
+float: right;
+margin-left: 7px;
+}
+

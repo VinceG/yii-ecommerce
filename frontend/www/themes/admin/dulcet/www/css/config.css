@@ -1,0 +1,27 @@
+/*
+************************************************
+
+STYLESHEET: Cofiguration
+
+************************************************
+*/
+
+@import url('main_menu.css');
+@import url('formee-structure.css');
+@import url('formee-style.css');
+@import url('default_buttons.css');
+@import url('chosen.css');
+@import url('uniform.default.css');
+@import url('generic_icons.css');
+
+@import url('style.css');
+@import url('jquery.thumbnailScroller.css');
+
+@import url('../plugins/lightbox/js/lightbox/themes/default/jquery.lightbox.css');
+@import url('../plugins/jqueryui/all/themes/base/jquery.ui.all.css');
+@import url('../plugins/validator/css/validationEngine.jquery.css');
+@import url('../plugins/dialogs/jquery-fallr-1.0.css');
+@import url('../plugins/qtip/jquery.qtip.css');
+@import url('../plugins/multiselect/css/ui.multiselect.css');
+@import url('../plugins/alerts/resources/css/jquery.toastmessage.css');
+@import url('../plugins/prettify/prettify.css');

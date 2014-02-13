@@ -1,0 +1,11 @@
+.buildpath
+.settings
+.settings/*
+.project
+.DS_Store
+/frontend/runtime/*
+/frontend/www/uploads/*
+/frontend/www/assets/*
+/console/runtime/*
+*-local.php
+frontend/www/robots.txt

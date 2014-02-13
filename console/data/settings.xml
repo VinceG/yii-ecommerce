@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings_export>
+  <setting_categories>
+    <setting_category>
+      <title>Missing Settings</title>
+      <description>Settings that were accessed but were not found in the db</description>
+      <groupkey>missing_settings</groupkey>
+    </setting_category>
+    <setting_category>
+      <title>Admin Dashboard</title>
+      <description>Settings that are related to the admin dashboard screen</description>
+      <groupkey>admin_dashboard</groupkey>
+    </setting_category>
+    <setting_category>
+      <title>Media Manager</title>
+      <description>Settings related to the media manager and file uploads</description>
+      <groupkey>media_manager</groupkey>
+    </setting_category>
+    <setting_category>
+      <title>Global Settings</title>
+      <description>Admin Global Settings</description>
+      <groupkey>global_settings</groupkey>
+    </setting_category>
+    <setting_category>
+      <title>Personal Messages</title>
+      <description>Manage settings related to the personal messaging system</description>
+      <groupkey>personal_messages</groupkey>
+    </setting_category>
+    <setting_category>
+      <title>Maintenance Mode</title>
+      <description>Control the site maintenance mode settings</description>
+      <groupkey>maintenance_mode</groupkey>
+    </setting_category>
+    <setting_category>
+      <title>SEO Settings</title>
+      <description>Global SEO Setting Group</description>
+      <groupkey>global_seo_settings</groupkey>
+    </setting_category>
+    <setting_category>
+      <title><![CDATA[Optimization & Performance]]></title>
+      <description>Optimization and Performance enhancements settings</description>
+      <groupkey>optimization_and_performance</groupkey>
+    </setting_category>
+    <setting_category>
+      <title>Admin Panel Settings</title>
+      <description>Configure settings related to the admin control panel</description>
+      <groupkey>admin_panel_settings</groupkey>
+    </setting_category>
+    <setting_category>
+      <title><![CDATA[Banning & Blocking Settings]]></title>
+      <description>Configure the settings that manage the banning and blocking from the application</description>
+      <groupkey>ban_block_settings</groupkey>
+    </setting_category>
+    <setting_category>
+      <title>Theme Settings</title>
+      <description>Configure theme related settings and options</description>
+      <groupkey>themes</groupkey>
+    </setting_category>
+  </setting_categories>
+  <settings>
+    <setting_row>
+      <title>applicationName</title>
+      <description>asdasdas asdasdas asdasdasd asdasd</description>
+      <category>global_settings</category>
+      <type>text</type>
+      <settingkey>applicationName</settingkey>
+      <default_value>My Application!</default_value>
+      <value/>
+      <extra/>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Admin Dashboard Latest Logs</title>
+      <description/>
+      <category>admin_dashboard</category>
+      <type>text</type>
+      <settingkey>admin_dashboard_latest_logs</settingkey>
+      <default_value>10</default_value>
+      <value/>
+      <extra/>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Admin Dashboard Latest Login History</title>
+      <description/>
+      <category>admin_dashboard</category>
+      <type>text</type>
+      <settingkey>admin_dashboard_latest_login_history</settingkey>
+      <default_value>10</default_value>
+      <value/>
+      <extra/>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Uploads Dir</title>
+      <description>Enter the default uploads directory to store the media manager uploaded files in. Defaults to /uploads</description>
+      <category>media_manager</category>
+      <type>text</type>
+      <settingkey>uploads_dir</settingkey>
+      <default_value>uploads</default_value>
+      <value/>
+      <extra/>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Maximum Number of participants</title>
+      <description>Enter the maximum allowed number of participants per personal message</description>
+      <category>personal_messages</category>
+      <type>text</type>
+      <settingkey>personal_message_max_participants</settingkey>
+      <default_value>5</default_value>
+      <value/>
+      <extra/>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Additional Participant Roles Select</title>
+      <description>Choose the permissions roles that users with that roles will be shown in the TO select box</description>
+      <category>personal_messages</category>
+      <type>multi</type>
+      <settingkey>personal_messages_additional_roles</settingkey>
+      <default_value>admin,Admin</default_value>
+      <value/>
+      <extra>#show_roles#</extra>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Maintenance Status</title>
+      <description>Turn maintenance mode on/off</description>
+      <category>maintenance_mode</category>
+      <type>yesno</type>
+      <settingkey>maintenance_status</settingkey>
+      <default_value>0</default_value>
+      <value>1</value>
+      <extra/>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Maintenance Mode Message</title>
+      <description>Enter a message that will be displayed when the application is in maintenance mode</description>
+      <category>maintenance_mode</category>
+      <type>editor</type>
+      <settingkey>maintenance_message</settingkey>
+      <default_value>The site is currently under maintenance! Please check back soon.</default_value>
+      <value>The site is currently under maintenance! Please check back soon.</value>
+      <extra/>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Maintenance Roles Override</title>
+      <description>Select the roles that are allowed to view the application while in maintenance mode</description>
+      <category>maintenance_mode</category>
+      <type>multi</type>
+      <settingkey>maintenance_roles_override</settingkey>
+      <default_value/>
+      <value/>
+      <extra>#show_roles#</extra>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Staff Message</title>
+      <description>Enter a message that will be displayed in the dashboard under staff message tab</description>
+      <category>admin_dashboard</category>
+      <type>editor</type>
+      <settingkey>dashboard_staff_message</settingkey>
+      <default_value/>
+      <value/>
+      <extra/>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Admin Logged In Time</title>
+      <description>Enter the number of hours a user will stay logged in to the admin panel (in hours, Defaults to 5)</description>
+      <category>admin_panel_settings</category>
+      <type>text</type>
+      <settingkey>admin_logged_in_time</settingkey>
+      <default_value>5</default_value>
+      <value>5</value>
+      <extra/>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Home Page Title</title>
+      <description>Enter the title that will appear between the title tags when viewing the site home page</description>
+      <category>global_seo_settings</category>
+      <type>text</type>
+      <settingkey>home_page_title</settingkey>
+      <default_value/>
+      <value/>
+      <extra/>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Home Page Meta Desription</title>
+      <description>Enter the meta description that will appear when viewing the site home page</description>
+      <category>global_seo_settings</category>
+      <type>textarea</type>
+      <settingkey>home_page_meta_desc</settingkey>
+      <default_value/>
+      <value/>
+      <extra/>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Home Page Meta Keywords</title>
+      <description>Enter the meta keywords that will appear when viewing the site home page</description>
+      <category>global_seo_settings</category>
+      <type>textarea</type>
+      <settingkey>home_page_meta_keywords</settingkey>
+      <default_value/>
+      <value/>
+      <extra/>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Global Meta Description</title>
+      <description>Enter the meta description that will appear when viewing a page that has no meta description set</description>
+      <category>global_seo_settings</category>
+      <type>textarea</type>
+      <settingkey>global_meta_desc</settingkey>
+      <default_value/>
+      <value/>
+      <extra/>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Global Meta Keywords</title>
+      <description>Enter the meta keywords that will appear when viewing a page that has no meta keywords set</description>
+      <category>global_seo_settings</category>
+      <type>textarea</type>
+      <settingkey>global_meta_keywords</settingkey>
+      <default_value/>
+      <value/>
+      <extra/>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Robots Text File</title>
+      <description>Enter the contents for the robots.txt file {message}</description>
+      <category>global_seo_settings</category>
+      <type>textarea</type>
+      <settingkey>global_robots_txt</settingkey>
+      <default_value/>
+      <value/>
+      <extra/>
+      <php><![CDATA[if($show) {
+	// Make sure the file exists and is writeable
+	$exists = at("Yes");
+	$writeable = at("Yes");
+	$file = getBasePath() . '/robots.txt';
+
+	if(!file_exists($file)) {
+		$exists = at("No");
+	}
+
+	if(!is_writeable($file)) {
+		$writeable = at("No");
+	}
+
+	// Show description
+	$message = at("<br />File Location: <b>{file}</b>.<br /> File Exists: <b>{exists}</b>. File Writable: <b>{writeable}</b>", array('{file}' => $file, '{exists}' => $exists, '{writeable}' => $writeable));
+	$setting->description = str_replace('{message}', $message, $setting->description);
+}
+
+// Save contents
+if($store) {
+	$file = getBasePath() . '/robots.txt';
+	// Make sure the file exists and is writeable
+	// If it doesnt exists try to create it
+	if(!file_exists($file)) {
+		$fileSaved = @file_put_contents($file, '');
+		if(!$fileSaved) {
+			ferror(at("Sorry, We could not save the file {file}", array('{file}' => $file)));
+		}
+	} else {
+ 		// Is it writeable
+		if(is_writeable($file)) {
+			$fileSaved = file_put_contents($file, $setting->value);
+		} else {
+			if(!@chmod($file, 0777)) {
+				ferror(at("Sorry, The file {file} is not writeable.", array('{file}' => $file)));
+			} 
+		}
+	}
+}]]></php>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Global Time Zone</title>
+      <description>Select the system default time zone</description>
+      <category>global_settings</category>
+      <type>dropdown</type>
+      <settingkey>global_time_zone</settingkey>
+      <default_value>America/Los_Angeles</default_value>
+      <value/>
+      <extra>#show_timezones#</extra>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Content Cache</title>
+      <description><![CDATA[Choose the type of content cache you'd like to use to cache static content (HTML Pages for example)]]></description>
+      <category>optimization_and_performance</category>
+      <type>dropdown</type>
+      <settingkey>global_content_cache</settingkey>
+      <default_value>CDbCache</default_value>
+      <value/>
+      <extra>#show_cache_options#</extra>
+      <php><![CDATA[if($store) {
+	Yii::app()->cache->flush();
+}
+
+if($show) {
+	$cacheOptions = array();
+	foreach(getSupprotedCacheOptions() as $cacheKey => $cacheData) {
+		$status = $cacheData['visible'] ? at('Available') : at('Not Available');
+		$cacheOptions[] = at("{title} is <b>{status}</b>", array('{title}' => $cacheData['title'], '{status}' => $status));
+	}
+	
+	$setting->description .= '<br /><br />' . implode('<br />', $cacheOptions);
+}]]></php>
+      <is_protected>1</is_protected>
+      <group_title>Cache</group_title>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Data Cache</title>
+      <description><![CDATA[Choose the type of data cache you'd like to use to cache data (settings, php variables etc...)]]></description>
+      <category>optimization_and_performance</category>
+      <type>dropdown</type>
+      <settingkey>global_data_cache</settingkey>
+      <default_value>CDbCache</default_value>
+      <value/>
+      <extra>#show_cache_options#</extra>
+      <php><![CDATA[if($store) {
+	Yii::app()->dataCache->flush();
+}
+
+if($show) {
+	$cacheOptions = array();
+	foreach(getSupprotedCacheOptions() as $cacheKey => $cacheData) {
+		$status = $cacheData['visible'] ? at('Available') : at('Not Available');
+		$cacheOptions[] = at("{title} is <b>{status}</b>", array('{title}' => $cacheData['title'], '{status}' => $status));
+	}
+	
+	$setting->description .= '<br /><br />' . implode('<br />', $cacheOptions);
+}]]></php>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>1</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Memcache Servers</title>
+      <description><![CDATA[Enter the list of servers to use when the cache content or cache data is memcache.<br />Example:<br />serverAddress:Port:Weight<br />127.0.0.1: 11211:60]]></description>
+      <category>optimization_and_performance</category>
+      <type>textarea</type>
+      <settingkey>memcache_cache_servers</settingkey>
+      <default_value/>
+      <value/>
+      <extra/>
+      <php><![CDATA[if($show) {
+	if(!@class_exists('Memcache')) {
+		$setting->disabled = true;
+		$setting->description .= at("<br /><b>Memcache is not loaded.</b>");
+	}
+}]]></php>
+      <is_protected>1</is_protected>
+      <group_title>Memcache Specific Settings</group_title>
+      <group_close>1</group_close>
+      <sort_ord>2</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Global Editor Type</title>
+      <description><![CDATA[Choose the type of editor you'd like to use when editing rich content]]></description>
+      <category>admin_panel_settings</category>
+      <type>dropdown</type>
+      <settingkey>global_editor_type</settingkey>
+      <default_value>ckeditor</default_value>
+      <value>redactor</value>
+      <extra>ckeditor=CKEditor&#13;
+tinymce=TinyMCE&#13;
+redactor=RedactorJS</extra>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>IP Block</title>
+      <description><![CDATA[Enter the IP addresses you'd like to block from accessing the entire application. This includes the admin panel so be careful with entering your IP address as you'll need to update the setting through the DB afterwards.]]></description>
+      <category>ban_block_settings</category>
+      <type>textarea</type>
+      <settingkey>ban_ips</settingkey>
+      <default_value/>
+      <value/>
+      <extra/>
+      <php><![CDATA[if($show) {
+			$setting->description .= at("<br /><br />Enter one IP address per line. You can use * for wildcard matching. Examples:<br />10.0.0.1<br />192.152.*.*<br />192.*.*.1<br />187.*.*.*");
+		}]]></php>
+      <is_protected>1</is_protected>
+      <group_title>IP Block</group_title>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Redirect Blocked IP URL Address</title>
+      <description>Enter the URL address the blocked IPs will be redirected to. Defaults to http://google.com</description>
+      <category>ban_block_settings</category>
+      <type>text</type>
+      <settingkey>ban_ips_redirect_url</settingkey>
+      <default_value>http://google.com</default_value>
+      <value/>
+      <extra/>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>1</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Default Language</title>
+      <description>Choose the site default language from the supported installed languages</description>
+      <category>global_settings</category>
+      <type>dropdown</type>
+      <settingkey>default_site_language</settingkey>
+      <default_value>en</default_value>
+      <value/>
+      <extra>#show_languages#</extra>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Ajax Check Messages Interval</title>
+      <description>Select the time in seconds that will run an ajax call to check for new Personal Messages. Select none if you dont want to check Personal Messages via ajax.</description>
+      <category>personal_messages</category>
+      <type>dropdown</type>
+      <settingkey>pm_ajax_check_messages</settingkey>
+      <default_value>30</default_value>
+      <value/>
+      <extra>0=None&#13;
+30=30 Seconds&#13;
+60=1 Minute&#13;
+120=2 Minutes&#13;
+300=5 Minutes&#13;
+600=10 Minutes&#13;
+1200=20 Minutes&#13;
+3600=1 Hour&#13;
+</extra>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+    <setting_row>
+      <title>Default Theme</title>
+      <description>Choose the default theme used in the site</description>
+      <category>themes</category>
+      <type>dropdown</type>
+      <settingkey>default_theme</settingkey>
+      <default_value/>
+      <value/>
+      <extra>#show_themes#</extra>
+      <php/>
+      <is_protected>1</is_protected>
+      <group_title/>
+      <group_close>0</group_close>
+      <sort_ord>0</sort_ord>
+    </setting_row>
+  </settings>
+</settings_export>

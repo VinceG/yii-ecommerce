@@ -1,0 +1,175 @@
+
+/*
+************************************************
+
+STYLESHEET: Form Style
+
+************************************************
+*/
+
+/********************************************************************
+
+Project: Formee - http://www.formeeee.org
+Last Updated: 
+Version: 3.1
+Authors: Bernard De Luna - http://www.bernarddeluna.com
+         Daniel Araujo - http://www.dnlaraujo.com.br
+		 Marcello Manso - http://www.marcellomanso.com.br
+			 
+********************************************************************
+Style
+********************************************************************/
+
+.formee fieldset {
+	background: #fafafa;
+	border: 1px solid #ccc;
+	/*corner*/
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+/* hover effect */
+.grid-1-12:hover, .grid-2-12:hover, .grid-3-12:hover, .grid-4-12:hover, .grid-5-12:hover, .grid-6-12:hover, .grid-7-12:hover, .grid-8-12:hover, .grid-9-12:hover, .grid-10-12:hover, .grid-11-12:hover, .grid-12-12:hover {}
+.field-button:hover {background:transparent;}
+
+
+/* Form legend and titles */
+
+.formee {font: normal 10px/1.1em Helvetica,Arial,Sans-Serif;}
+.formee legend {
+	font-size:14px;
+	line-height:1.2em;
+	letter-spacing: -.035em;
+	color:#2b2b2b;
+	font-weight: normal;
+	background: #fafafa;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #eaeaea 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eaeaea));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#eaeaea 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#eaeaea 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#eaeaea 100%);
+	background: linear-gradient(top,  #ffffff 0%,#eaeaea 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 );
+
+	border: 1px solid #d4d4d4;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+/* form elements  */
+.formee-lbl, .formee label {
+	color:#2b2b2b;
+	font-size:12px;
+	line-height: 1.3em;
+	vertical-align:middle;
+	margin-right: 10px;
+	margin-top: 11px;
+}
+.formee-req {
+	font-weight: bold;
+	font-style:normal;
+	color:#d10000;
+	font-size:1.4em;
+	line-height: .85em;
+}
+.formee .formee-txt, .formee input[type="text"], .formee input[type="password"], .formee input[type="file"], .formee textarea, .formee select {
+	border-color:#c6c6c6;
+	background: #fff;
+	color:#999;
+	font-size:1.4em;
+	font-family:inherit;
+	/*corner*/
+	border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+}
+
+
+
+.formee select {
+	border-color:#c6c6c6;
+	background: #fafafa;
+	color:#999;
+}
+.formee .formee-txt:hover, .formee input[type="text"]:hover, .formee input[type="password"]:hover, .formee input[type="file"]:hover, .formee textarea:hover, .formee select:hover {
+	color:#666;
+	background: #fff none;
+	border-color:#c6c6c6;
+}
+form .formee-txt:focus, .formee input[type="text"]:focus, .formee input[type="password"]:focus, .formee input[type="file"]:focus, .formee textarea:focus, .formee select:focus  {
+	color:#222;
+	outline: 0;
+}
+
+.formee .form-input {
+background: #c6c6c6;
+padding-left: 7px;
+padding-right: 7px;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+
+/* form validation */
+.formee-error {
+	border-color: #FAD0D0 !important;
+	color: #b01717 !important;
+  /* shadow */
+  -moz-box-shadow: 0 0 3px 0 rgba(176,23,23,.4);
+  -webkit-box-shadow: 0 0 3px 0 rgba(176,23,23,.4);
+  box-shadow: 0 0 3px 0 rgba(176,23,23,.4);
+}
+
+/* Input subtip */
+.formee .subtip {
+clear: both;
+margin-left: 2px;
+font-size: 10px;
+color: #777;
+}
+
+
+/* Formee separator */
+.formee hr {
+border-top-color: #ddd;
+margin-top: 10px;
+margin-bottom: 10px;
+clear: both;
+}
+
+/*Row*/
+.formee .elem_ui {
+padding-top: 15px;
+}
+
+/* Inner text size */
+.formee {
+font-size: 11px;
+}
+
+/* Tags select */
+.formee .tags_select{ 
+color: #444; 
+font-size: 10px; 
+line-height: 20px; 
+clear: both; 
+position: relative; 
+left: 0; 
+top: 5px;
+}
+.formee .tags_select a{ 
+color: #333; 
+font-size: 10px; 
+line-height: 20px; 
+clear: both; 
+background:#ddd;
+margin-right: 2px; 
+margin-left: 2px; 
+padding: 1px 5px; 
+border: 1px solid #aaa; 
+border-radius: 3px; 
+-moz-border-radius: 3px; 
+-webkit-border-radius: 3px; 
+}

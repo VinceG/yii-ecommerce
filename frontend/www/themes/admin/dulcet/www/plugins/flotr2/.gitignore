@@ -1,0 +1,7 @@
+build
+.vimrc
+*.swp
+*.swm
+*.swo
+*.vim
+.jhw-cache

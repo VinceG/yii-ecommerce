@@ -1,0 +1,123 @@
+@charset "utf-8";
+/*
+Thumbnail scroller jQuery plugin
+scrollers styling
+*/
+.jThumbnailScroller{position:relative; width:auto;  margin:0; border:0; padding:0; overflow:hidden;}
+.jThumbnailScroller .jTscrollerContainer{position:absolute;}
+.jThumbnailScroller .jTscroller{position:relative; margin:0; left:0; top:0; display:inline-block; *display:inline;}
+.jThumbnailScroller .jTscrollerNextButton:hover,.jThumbnailScroller .jTscrollerPrevButton:hover{background-color:#d56916; opacity:1;}
+.jThumbnailScroller .jTscroller a{}
+.jThumbnailScroller .jTscroller a:hover{}
+.jThumbnailScroller .jTscroller a:first-child{}
+.jThumbnailScroller .jTscroller a img{border:none;}
+/* different styled scrollers */
+
+
+
+/* liquid width scroller */
+#quick_task{width:100%; display: block;height: 80px;}
+/* ID */
+#quick_task{
+position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-left: 1%;
+margin-right: 1%;
+margin-bottom: 0;
+margin-top: 0;
+}
+
+/*list*/
+#quick_task li{
+position: relative;
+display: inline-block;
+list-style: none;
+font-size: 11px;
+text-align: center;
+margin: 0;
+padding: 2px 1px;
+overflow: hidden;
+border: 0;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+#quick_task li.right{float: right;}
+
+#quick_task li.margin_left10{margin-left:10px;}
+#quick_task li.margin_left20{margin-left:20px;}
+#quick_task li.margin_left30{margin-left:30px;}
+#quick_task li.margin_left40{margin-left:40px;}
+#quick_task li.margin_left50{margin-left:50px;}
+
+#quick_task li a{
+position: relative;
+display: block;
+padding: 5px 10px;
+min-width:50px;
+min-height: 60px;
+height: 60px;
+color: #777;
+z-index: 10;
+}
+
+#quick_task li a:hover{
+color: #222;
+}
+
+#quick_task li.active, #quick_task li:hover {
+padding: 0;
+border: 1px solid #aaa;
+background: #ffffff;
+background: -moz-linear-gradient(top,  #ffffff 0%, #dddddd 98%, #eeeeee 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(98%,#dddddd), color-stop(100%,#eeeeee));
+background: -webkit-linear-gradient(top,  #ffffff 0%,#dddddd 98%,#eeeeee 100%);
+background: -o-linear-gradient(top,  #ffffff 0%,#dddddd 98%,#eeeeee 100%);
+background: -ms-linear-gradient(top,  #ffffff 0%,#dddddd 98%,#eeeeee 100%);
+background: linear-gradient(top,  #ffffff 0%,#dddddd 98%,#eeeeee 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
+}
+
+
+#quick_task li span{
+display: block;
+width: 32px;
+height: 32px;
+margin: 0 auto;
+margin-top: 7px;
+margin-bottom: 3px;
+padding: 0;
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+/* quicktask icons */
+#quick_task li span.icon1{background-image: url(../images/woo/home_32.png);}/* Dashboard icon */
+#quick_task li span.icon2{background-image: url(../images/woo/web_layout_32.png);}/* Forms icon */
+#quick_task li span.icon3{background-image: url(../images/woo/activity_monitor_chart.png);}/* Charts icon */
+#quick_task li span.icon4{background-image: url(../images/woo/book_add_32.png);}/* Organizer icon */
+#quick_task li span.icon5{background-image: url(../images/woo/tools_32.png);}/* Settings icon */
+#quick_task li span.icon6{background-image: url(../images/woo/address_book_add_32.png);}/* Contacts icon */
+#quick_task li span.icon7{background-image: url(../images/woo/window_app_32.png);}/* Tables icon */
+#quick_task li span.icon8{background-image: url(../images/woo/folder_search_32.png);}/* File explorer icon */
+#quick_task li span.icon9{background-image: url(../images/woo/users_32.png);}/* Users icon */
+#quick_task li span.icon10{background-image: url(../images/woo/arrow_up_32.png);}/* Upload icon */
+#quick_task li span.icon11{background-image: url(../images/woo/add_32.png);}/* Plus icon */
+#quick_task li span.icon12{background-image: url(../images/woo/basket_add_32.png);}/* Add product icon */
+#quick_task li span.icon13{background-image: url(../images/woo/blue_arrow_down_32.png);}/* Download icon */
+#quick_task li span.icon14{background-image: url(../images/woo/camera_32.png);}/* Photos icon */
+#quick_task li span.icon15{background-image: url(../images/woo/comment_user_32.png);}/* Comments icon */
+#quick_task li span.icon16{background-image: url(../images/woo/database_32.png);}/* Database icon */
+#quick_task li span.icon17{background-image: url(../images/woo/email_add_32.png);}/* New mail icon */
+#quick_task li span.icon18{background-image: url(../images/woo/heart_32.png);}/* Favorites icon */
+#quick_task li span.icon19{background-image: url(../images/woo/lock_32.png);}/* Security settings icon */
+#quick_task li span.icon20{background-image: url(../images/woo/page_blank_add_32.png);}/* New page icon */
+
+
+/* Crazy Chrome fix */
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    #quick_task{height: 74px;}
+}

@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<messages_export>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>TOOLBAR</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Page Load Time</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Elapsed Time</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Memory Usage</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Memory Peak Usage</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Close</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Server</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Yii {n}</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Request</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Settings</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>ON</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Views Rendering</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>{count} views</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>SQL</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>{n} query in {s} s.|{n} queries in {s} s.</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Logging</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>{n} message|{n} messages</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Profile Logging</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Server Info</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Name</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Value</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>No Cookies</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>No session attributes</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>No GET parameters</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>No POST parameters</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>No FILES data</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Application Settings</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Application Properties</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Property</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Modules</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Module ID</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Configuration</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Application Params</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Components</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Component ID</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Views Rendering ({count} rendered)</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>SQL Queries from {n} connection|SQL Queries from {n} connections</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Context</message>
+  </message_row>
+  <message_row>
+    <category>yii-debug-toolbar</category>
+    <message>Summary</message>
+  </message_row>
+  <message_row>
+    <category>yii-debug-toolbar</category>
+    <message>Callstack</message>
+  </message_row>
+  <message_row>
+    <category>yii-debug-toolbar</category>
+    <message>Servers</message>
+  </message_row>
+  <message_row>
+    <category>yii-debug-toolbar</category>
+    <message>Connection ID</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Driver</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Server Version</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Uptime</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Threads</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Questions</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Slow queries</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Opens</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Flush tables</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Open tables</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Queries per second avg</message>
+  </message_row>
+  <message_row>
+    <category>yii-debug-toolbar</category>
+    <message>Query</message>
+  </message_row>
+  <message_row>
+    <category>yii-debug-toolbar</category>
+    <message>Count</message>
+  </message_row>
+  <message_row>
+    <category>yii-debug-toolbar</category>
+    <message>Total (s)</message>
+  </message_row>
+  <message_row>
+    <category>yii-debug-toolbar</category>
+    <message>Avg. (s)</message>
+  </message_row>
+  <message_row>
+    <category>yii-debug-toolbar</category>
+    <message>Min. (s)</message>
+  </message_row>
+  <message_row>
+    <category>yii-debug-toolbar</category>
+    <message>Max. (s)</message>
+  </message_row>
+  <message_row>
+    <category>yii-debug-toolbar</category>
+    <message>Time (s)</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Log Messages</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Message (details)</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Level</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Category</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Time</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Profile Log Messages</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Dashboard</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Languages Manager</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Sync Messages</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Language Title</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Language Code</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Source Language</message>
+  </message_row>
+  <message_row>
+    <category>bootstrap</category>
+    <message>Next</message>
+  </message_row>
+  <message_row>
+    <category>bootstrap</category>
+    <message>Previous</message>
+  </message_row>
+  <message_row>
+    <category>bootstrap</category>
+    <message>First</message>
+  </message_row>
+  <message_row>
+    <category>bootstrap</category>
+    <message>Last</message>
+  </message_row>
+  <message_row>
+    <category>global</category>
+    <message>Welcome {name}</message>
+  </message_row>
+  <message_row>
+    <category>global</category>
+    <message>Profile</message>
+  </message_row>
+  <message_row>
+    <category>global</category>
+    <message>Logout</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Compose Message</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[You Have {link} New Personal Messages. <br />{create}]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Management</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Users & Permissions]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Users</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>User Custom Fields</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Permissions</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Personal Messages</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Content</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Site</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Custom Pages</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Blog</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Help Topics</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Emails & Form Templates]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Form Templates</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Email Templates</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Media</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Media Manager</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Geographical</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Countries</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>US States</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>US Cities</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Store</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Products</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Product Categories</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Orders</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Create New Order</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Manage Order Statuses</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Contact Us</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Contact Us Messages</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Reports</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Create Report</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Tools</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Settings</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Languages</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Logs</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Login History</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Local Time: {time}</message>
+  </message_row>
+  <message_row>
+    <category>YiiDebug.yii-debug-toolbar</category>
+    <message>Session Size</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Staff Messages</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Admin Logged In ({total})</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Admin Login History</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Admin Latest Logs</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Update</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Personal Messages Manager</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Synced Language '{name}'.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Language Synced.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Total Strings</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Total Source Strings</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Language Synced. Total {n} new stings added.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Total Translated</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Translate</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Translate Strings</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>ID</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Original String</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Translation</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Sort by translation</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Options</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Cancel</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Save</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Strings Updated.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Revert translation to original</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Revert</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Settings Manager</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Accessed Settings Manager.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>String Reverted.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Viewing Setting Category</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Viewing Category "{name}"]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Viewing Setting Group '{name}']]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Update Settings</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Edit this setting</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Edit</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Delete this setting!</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Delete</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Reorder</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Adding Setting</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting Title</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting Description</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting Group</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting Type</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting Default Value</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting Value</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting Extra</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting PHP Code</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting Unique Key</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting Protected</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting Group Title</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Close Opened Group</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting Sort Order</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>-- Choose Value --</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Text Field</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Text Area</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Select Box</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Multi Select Box</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Yes/No</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>HTML Editor</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Enter extra data that will be used to create the dropdown list or multi select list. One option per line key=value.<br />Example:<br />m=Male<br />f=Female<br />u=Unknown]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Enter PHP code that will be executed when the setting is shown, saved or stored to the database.<br />Info:<br /> <b>$show</b> - When the setting is being displayed.<br /><b>$save</b> - When the setting is edited through the setting form.<br /><b>$store</b> - When the setting value is being stored to the database through the group view page.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>By checking this option you will not be able to delete the setting through the admin panel.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Enter a title to group this settings and the next ones after it in a group of settings until you close it by checking the close opened group checkbox.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[If you've entered a group title for a setting you may close that opened group by checking this checkbox to close it.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Create</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Added Setting '{name}']]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting added.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Updating Setting</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Editing Setting</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting edited.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Updated Setting '{name}']]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Search Strings</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Deleted Setting '{name}']]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting deleted.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>No Settings Found.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Title</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Type</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Recipients</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Message</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Last Reply Date</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Last Reply Author</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Please select one...</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Please at least one recipient</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Maximum participants: {n}</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Create Message</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Close</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Creating Personal Message</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message> (Changed)</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Roles</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Tasks</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Operations</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Revert setting value to the default value.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Search Messages</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Search</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Error!</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Login</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Administration</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Thank You! You are now logged in.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>User logged in.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Public Language</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Private</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Updating Language</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Update Topic</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Language Updated.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Updated Language '{name}'.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Public</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Creating New Language</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Create Topic</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Language Created.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Created Language '{name}'.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Synced All Languages</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Create User</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Basic Information</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Personal Information</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Custom Fields</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Roles & Permissions]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Shipping & Billing Information]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Name</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Email</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Notes</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Created At</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Updated At</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Password Hash</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Password Reset Token</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Last Visited</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>First Name</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Last Name</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Birth Date</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Company</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Contact</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Home Phone</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Cell Phone</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Work Phone</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Fax</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Shipping Contact Name</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Shipping Address 1</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Shipping Address 2</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Shipping City</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Shipping State</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Shipping Zip</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Shipping Country</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Billing Contact Name</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Billing Address 1</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Billing Address 2</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Billing City</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Billing State</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Billing Zip</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Billing Country</message>
+  </message_row>
+  <message_row>
+    <category>usercustomfields</category>
+    <message>Skype</message>
+  </message_row>
+  <message_row>
+    <category>usercustomfields</category>
+    <message>Gender</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Additional Roles</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Additional Tasks</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Additional Operations</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Type in the zipcode and fill in the billing information if the information exists in our databases.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Check</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Load Into</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Copy information from billing into shipping and vice versa</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Billing to Shipping</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Shipping to Billing</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Start typing in a city name and it will provide suggestion using autocomplete</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Viewing User</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Viewed user profile: '{name}'.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Viewing User '{name}']]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Update User</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>User Custom Fields Manager</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Hidden</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Yes</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>No</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Creating New Field</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Custom Field Form</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Description</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Status</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Shown On Site</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Allow To Edit</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Default Value</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Extra Data</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Active</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Used for drop downs and multi select boxes. One item per each line separate with = between the key and value. for example:<br /><br /> key=>value<br />key=>value]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Updating Custom Field</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Permissions Manager</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Create Permission</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>bizRule</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Data</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Viewing Permission</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Viewed permission: '{name}'.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Viewing Permission '{name}']]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Childs</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Adding Child Permissions</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Manage Child Items</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Auth Item Parent</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Auth Item Child</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Search Personal Messages</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Delete Topic</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Viewed Personal Message '{name}'.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Viewing Personal Message</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Viewing Personal Message "{name}"]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Author</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Participants</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>No Participants</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Add Participants</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Reply</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Send</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Source</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Copy</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Create Language</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Add String</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Sync All</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Creating New String</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Create String</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Start typing in a category name and it will provide suggestion using autocomplete</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Message Category</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Strings will be added to source table then the languages will be synced to have that newly created string included in each language.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>That message already exists under that category.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>String Created.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Added New String '{name}']]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Admin Logs</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Export Language</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Import Language</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Select File</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Import</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Update Strings if language exists</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>If you are uploading a language that already exists then check this box to update the translation strings otherwise an error will be shown that the language exists already.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Language data missing name or abbreviation.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>That language exists already. If you want to overwrite the translations then check the update checkbox.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Update Language '{name}']]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Language Updated. {i} Strings Imported, {u} Strings Updated, {s} Strings Skipped.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Update Language</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Dashboardtest</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Imported New Language '{name}']]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[New Language Created '{name}'. <b>{i}</b> Strings Imported, <b>{u}</b> Strings Updated, <b>{s}</b> Strings Skipped.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Deleted Language '{name}'.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Language Deleted.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>You can not delete a public accessible language</message>
+  </message_row>
+  <message_row>
+    <category>yii-debug-toolbar</category>
+    <message>No SQL queries were recorded during this request or profiling the SQL is DISABLED.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Updated settings in group '{name}']]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Settings Updated.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Themes</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Themes Manager</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Theme Widgets Manager</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Theme Functions Manager</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Theme Manager</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Create Theme</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Total Files</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Theme Name</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Theme Directory Name</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Theme Active</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Theme Author Name</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Theme Author Site</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Creating New Theme</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Theme Created.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Created Theme '{name}'.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Updating Theme</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Update Theme</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Theme Updated.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Updated Theme '{name}'.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Sorry, That directory name is already in use.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Deleted Theme '{name}'.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>You can not delete a public accessible theme</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Theme Deleted.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Total Source Files</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Sorry, We could not create the theme directory as the theme path "{d}" is not writeable. Please set the appropriate permissions.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Sorry, Could not create the theme directory "{d}" as the theme path is not writeable, Please set the appropriate permissions.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Sync Theme Files</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Synced Theme '{name}'.]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Theme Synced. Total {n} files synced.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Synced All Themes</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Your session expired. Please login.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Viewing Theme {t}</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Root Folder: {r}</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Theme Editor Usage</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Theme File Editor</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Select a file to see the editor.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Adding Setting Group</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Group Unique Key</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting group added.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Added New setting group '{name}']]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[<br />File Location: <b>{file}</b>.<br /> File Exists: <b>{exists}</b>. File Writable: <b>{writeable}</b>]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Save Template</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Updated Theme '{name}', File {file}]]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Theme File Saved!</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message><![CDATA[Reverted Setting '{name}']]></message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Setting Reverted.</message>
+  </message_row>
+  <message_row>
+    <category>global</category>
+    <message>No</message>
+  </message_row>
+  <message_row>
+    <category>global</category>
+    <message>Yes</message>
+  </message_row>
+  <message_row>
+    <category>global</category>
+    <message>Maintenance Mode</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>You can not delete an active theme.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>Error! You must set write permissions to the themes directory.</message>
+  </message_row>
+  <message_row>
+    <category>admin</category>
+    <message>You can not delete the default theme.</message>
+  </message_row>
+</messages_export>

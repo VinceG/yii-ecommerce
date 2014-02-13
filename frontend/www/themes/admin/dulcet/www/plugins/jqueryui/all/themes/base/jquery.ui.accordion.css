@@ -1,0 +1,39 @@
+/*
+ * jQuery UI Accordion 1.8.16
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Accordion#theming
+ */
+/* IE/Win - Fix animation bug - #4615 */
+.ui-accordion { width: 100%; margin-bottom: 20px; }
+.ui-accordion .ui-accordion-header { 
+font-weight: 700; 
+text-shadow: 1px 1px 2px rgba(255, 255, 255, .5);
+cursor: pointer; 
+position: relative; 
+margin-top: 1px; 
+zoom: 1; 
+border: 1px solid #aaa; 
+padding-top: 4px; 
+padding-bottom: 4px;
+background: #f2f2f2; /* Old browsers */
+background: -moz-linear-gradient(top,  #f2f2f2 0%, #dbdbdb 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#dbdbdb)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f2f2f2 0%,#dbdbdb 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f2f2f2 0%,#dbdbdb 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f2f2f2 0%,#dbdbdb 100%); /* IE10+ */
+background: linear-gradient(top,  #f2f2f2 0%,#dbdbdb 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#dbdbdb',GradientType=0 ); /* IE6-9 */
+
+ }
+.ui-accordion .ui-accordion-li-fix { display: inline; }
+.ui-accordion .ui-accordion-header-active { border-bottom: 0 !important; }
+.ui-accordion .ui-accordion-header a { display: block; font-size: 1em; padding: .5em .5em .5em .7em; }
+.ui-accordion-icons .ui-accordion-header a { padding-left: 1em; }
+.ui-accordion .ui-accordion-header .ui-icon { position: absolute; right: .5em; top: 50%; margin-top: -8px; background: url(images/accord.png); }
+.ui-accordion .ui-accordion-content { padding: 12px; border-top: 0; margin-top: -2px; position: relative; top: 1px; margin-bottom: 2px; overflow: auto; display: none; zoom: 1; font-size: 12px; font-family: "Helvetica", Arial, sans-serif; line-height: 1.6; }
+.ui-accordion .ui-accordion-content-active { display: block; }
+.ui-accordion .ui-state-active .ui-icon { background-position: 0 -17px;}

@@ -1,0 +1,46 @@
+INFO
+=========================
+
+This widget builds an elFinder (http://elfinder.org) instance that will allow you to upload files easily. There are not file edits required. All you have to do is pass the right properties to the widget instance and it will do the rest.
+
+Author: Vincent Gabriel (vadimg88[at]gmail.com)
+
+
+Installation
+=========================
+
+1. Create a folder called 'widgets' under 'protected/'.
+2. Copy the elfinder directory to the widgets directory.
+3. In your view file paste the following:
+
+<?php $this->widget('widgets.elFinder.FinderWidget', array(
+						'path' => '/path/to/uploads/dir', // path to your uploads directory, must be writeable 
+						'url' => 'http://url/to/uploads/dir', // url to uploads directory 
+						'action' => $this->createUrl('site/elfinder.connector') // the connector action (we assume we are pasting this code in the sitecontroller view file)
+					)); ?>
+					
+4. Make sure the page has the element that will show the actual widget. By default the selector is '#elfinder', Buy you can change that by setting 'selector' => '.some_class' in the widget parameters.
+	Example Div:	<div id="elfinder"></div>
+	
+5. In the view file controllers you need to add the following to an actions action:
+
+
+	public function actions() {
+	   return array(
+	      'elfinder.' => 'widgets.elFinder.FinderWidget',
+	    );
+	}
+	
+	To make sure it will direct the action call to the widget action connector.
+	
+6. In case that this doesn't work and you get a 404 exception that the system cannot find that action or url. If you are using custom url manager or the path option in the url manager, You need to add the '.' to the allowed chars for action names.
+   So if i had a rule like this:
+   		"site/<_c:([a-zA-z0-9-]+)>/<_a:([a-zA-z0-9-]+)>/*" => 'site/<_c>/<_a>/',
+   The above does not allow '.' in the URL for action names (we need that since the action name for the widget connector will be ControllerId/elfinder.connector)
+   Change the above to
+   		"site/<_c:([a-zA-z0-9-]+)>/<_a:([a-zA-z0-9-\.]+)>/*" => 'site/<_c>/<_a>/',
+   Notice the '\.' that was added to the action regex.
+   
+7. Once you've done all that you should be able to run the page and see the elfinder widget working.
+
+   						

@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>CKEditor - BBCode Plugin Sample</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex, nofollow" />
+	<link href="../../../_samples/sample.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="../../../ckeditor.js"></script>
+</head>
+<body>
+	<h1>CKEditor - BBCode Plugin Sample</h1>
+	<p>Created by <a href="http://site-top.com/">PitBult</a></p>
+	<p>
+		This is a sample of custom Data Processor implementation for basic BBCode
+		syntax. Only <strong>[b]</strong>, <strong>[i]</strong>, <strong>[u]</strong>,
+		<strong>[img]</strong>,
+		<strong>[color]</strong>,
+		<strong>[quote]</strong>,
+		<strong>[code]</strong> and
+		<strong>[url]</strong> may be used. It may be extended, but this is out of this
+		sample purpose.
+	</p>
+	<p>
+		Note that the input and output of the editor is not HTML, but BBCode
+	</p>
+	<hr />
+	<form action="../../../_samples/html/sampleposteddata.asp" method="post" target="_blank">
+		<textarea cols="80" id="editor1" name="editor1" rows="10">
+		Text: [b]Bold text[/b]
+		Text: [i]Italic text[/i]
+		Text: [u]Underline text[/u]
+		Color: [color=#ff0000]Some color[/color]
+		
+		Code: [code]Some code text[/code]
+		Quote: [quote]Some quote text[/quote]
+		
+		Url1: [url]http://www.site.md[/url]
+		Url2: [url=http://site-top.com/]Site-Top[/url]
+		Img: [img]http://yiiframework.ru/forum/styles/prosilver/imageset/yii_logo.png[/img]
+		
+		Simple text.
+		</textarea>
+
+		<script type="text/javascript">
+		//<![CDATA[
+			// Replace the <textarea id="editor1"> with an CKEditor instance.
+			var sBasePath = document.location.pathname.substring(0,document.location.pathname.lastIndexOf('plugins')) ;
+			var CKeditor = CKEDITOR.replace( 'editor1', { 
+											customConfig : sBasePath + 'plugins/bbcode/_sample/bbcode.config.js'
+									}  );
+
+		//]]>
+		</script>
+	
+		<br />
+		<input type="submit" value="Submit" />
+	</form>
+</body>
+</html>

@@ -1,0 +1,181 @@
+
+/*
+************************************************
+
+STYLESHEET: Plugin Configuration
+
+************************************************
+*/
+
+
+/*
+ Color Picker additional styles 
+ --------------------------*/
+.flat_colorpicker input, .inline_colorpicker input {
+background: transparent !important;
+border: none !important;
+font-size: 10px !important;
+color: #898989 !important;
+padding: 0 2px !important;
+margin-top: 0;
+vertical-align: middle;
+height: 15px;
+}
+
+.color_p1 {
+	position: relative;
+	width: 36px;
+	height: 36px;
+	background: url(../plugins/colorpicker/images/select.png);
+}
+.color_p1 div {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 30px;
+	height: 30px;
+	background: url(../plugins/colorpicker/images/select.png) center;
+}
+
+/*
+ Spinner styles 
+ --------------------------*/
+ 
+ .spin_input {
+ padding: 7px 6px;
+ text-align: right;
+ vertical-align: middle;
+ outline: none;
+ border: 1px solid #ABABAB;
+ }
+ 
+ .spin_input:focus {
+ color: red;
+ }
+ 
+ /*
+JQuery UI Slider 
+--------------------------*/
+.simple_slider{
+margin: 0;
+width: 100%;
+}
+
+#multiple_vertical_slider span {
+	height:150px;
+	float:left;
+	margin:0 13px 15px;
+}
+
+.amount {
+	color:#999; 
+	font-weight:bold;
+}
+
+#ui-datepicker-div {
+z-index: 999 !important;
+font-size: 11px !important;
+}
+
+.slider_label {
+display: block;
+float: left;
+font-size: 11px;
+line-height: 20px !important;
+}
+
+input.slider_value {
+font-size: 11px !important;
+padding: 0 !important;
+margin: 0 0 0 10px !important;
+border:0 !important; 
+background: none !important;
+display: block !important;
+float: left !important;
+width: auto !important;
+height: auto !important;
+color:#0081C7 !important; 
+font-weight:bold !important;
+line-height: 20px !important; 
+}
+
+ /*
+JQuery UI Tabs 
+--------------------------*/
+
+.ui_tabs_right, .ui_tabs_right_ajax {
+background: none;
+}
+
+.ui_tabs_right .ui-tabs-nav, .ui_tabs_right_ajax .ui-tabs-nav {
+float: right;
+border: 0;
+border-right: 1px solid #aaa;
+background: none;
+position: absolute;
+top: 4px;
+right: 5px;
+-webkit-border-radius: 0 5px 5px 0;
+-moz-border-radius: 0 5px 5px 0;
+border-radius: 0 5px 5px 0;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
+
+.ui_tabs_right .ui-tabs-nav li, .ui_tabs_right_ajax .ui-tabs-nav li {
+border: 1px solid #aaa;
+border-right: 0;
+margin: 0;
+padding: 0;
+background: #eee;
+line-height: 12px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(255,255,255,.3);
+-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(255,255,255,.3);
+box-shadow: inset 0 1px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(255,255,255,.3);
+
+}
+
+.ui_tabs_right .ui-tabs-nav li.ui-tabs-selected, .ui_tabs_right_ajax .ui-tabs-nav li.ui-tabs-selected { background: #fff !important;  }
+
+.ui_tabs_right .ui-tabs-nav li:first-of-type, .ui_tabs_right_ajax .ui-tabs-nav li:first-of-type {
+-webkit-border-radius: 5px 0 0 5px;
+-moz-border-radius: 5px 0 0 5px;
+border-radius: 5px 0 0 5px;
+}
+
+.ui_tabs_right .ui-tabs-nav li:last-of-type, .ui_tabs_right_ajax .ui-tabs-nav li:last-of-type {
+-webkit-border-radius: 0 5px 5px 0;
+-moz-border-radius: 0 5px 5px 0;
+border-radius: 0 5px 5px 0;
+}
+
+.ui_tabs_right .ui-tabs-panel, .ui_tabs_right_ajax .ui-tabs-panel {
+padding: 0;
+min-height: 100px;
+}
+
+
+/* Multiselect
+-----------------------*/
+.ui-multiselect { border: solid 1px #aaa !important; width: 99.4% !important; }
+.ui-multiselect div.selected { width: 49.9% !important; float: left !important;}
+.ui-multiselect ul.selected { min-height: 200px !important;  }
+
+.ui-multiselect div.available { width: 49.9% !important; float: left !important; }
+.ui-multiselect ul.available { min-height: 200px !important; }
+
+.ui-multiselect .actions { background: #ddd !important; text-shadow: none !important; color: #333; border-bottom: 1px solid #aaa; font-size: 11px;}
+.ui-multiselect .actions .count { color: #FF3D36; }
+.ui-multiselect div.available { border-left: 1px solid #aaa; }
+
+.ui-multiselect input.search { height: 18px; padding: 2px; opacity: 1; margin: 4px; width: 120px; font-size: 10px; color: #333; background: #fff !important; }
+
+
+
+
+
+
+
+
+

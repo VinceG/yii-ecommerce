@@ -1,0 +1,1 @@
+<a data-dismiss="modal" class="btn" href="#"><?php echo at('Close'); ?></a>

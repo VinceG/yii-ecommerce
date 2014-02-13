@@ -1,0 +1,298 @@
+ /*
+ * Fallr v1.0.4 - jQuery Plugin
+ * Simple & elegant modal box jQuery plugin
+ *
+ * Copyright 2011 amatyr4n
+ * http://codecanyon.net/user/amatyr4n
+ *
+ * licensed under Envato licenses
+ * http://wiki.envato.com/support/legal-terms/licensing-terms/
+ */
+
+#fallr-overlay {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #333;
+    height: 100%;
+    width: 100%;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+#fallr-wrapper,
+#fallr-wrapper * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: Helvetica, Ubuntu, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 19px;
+    color: #555;
+    text-shadow: 1px 1px 1px #fff;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+}
+
+#fallr-wrapper {
+    position: fixed;
+    overflow: hidden;
+    background: #f0f0f0;
+    border: 1px solid #fff;
+    box-shadow: 0 0 5px #111;
+    -moz-box-shadow: 0 0 5px #111;
+    -webkit-box-shadow: 0 0 5px #111;
+}
+
+#fallr-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+	background-color: #ddd;
+	border-right: 1px solid #ccc;
+    width: 60px;
+    background-position: 15px 10px;
+    background-repeat: no-repeat;
+}
+
+#fallr {
+    position: relative;
+    padding: 20px 10px 10px 72px;
+}
+
+#fallr-buttons {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin: 14px;
+    clear: both;
+    display: block;
+    text-align: right;
+}
+
+/*  Github button style
+    http://nicolasgallagher.com/lab/css3-github-buttons/ 
+*/
+
+#fallr-wrapper .fallr-button,
+#fallr button,
+#fallr input[type="submit"] {
+    position: relative; 
+    overflow: visible; 
+    display: inline-block; 
+    padding: 4px 15px; 
+    border: 1px solid #d4d4d4; 
+    margin-left: 10px;
+    margin-top: 10px;
+    text-decoration: none; 
+    text-shadow: 1px 1px 0 #fff;
+    white-space: nowrap; 
+    cursor: pointer;
+    background-color: #ececec;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
+    background-image: -moz-linear-gradient(#f4f4f4, #ececec);
+    background-image: -o-linear-gradient(#f4f4f4, #ececec);
+    background-image: linear-gradient(#f4f4f4, #ececec);
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    -o-background-clip: padding-box; 
+    border: 1px solid rgba(0, 0, 0, .25);
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px;
+}
+
+#fallr-wrapper .fallr-button:hover,
+#fallr-wrapper .fallr-button:focus,
+#fallr button:hover,
+#fallr button:focus,
+#fallr input[type="submit"]:hover,
+#fallr input[type="submit"]:focus {
+    border-color: #3072b3;
+    border-bottom-color: #2a65a0;
+    text-decoration: none; 
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3); 
+    color: #fff; 
+    background-color: #3C8DDE;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
+    background-image: -moz-linear-gradient(#599bdc, #3072b3);
+    background-image: -o-linear-gradient(#599bdc, #3072b3);
+    background-image: linear-gradient(#599bdc, #3072b3);
+}
+
+#fallr-wrapper .fallr-button.fallr-button-danger {
+    color: #900;
+}
+
+#fallr-wrapper .fallr-button.fallr-button-danger:hover,
+#fallr-wrapper .fallr-button.fallr-button-danger:focus {     
+    border-color: #b53f3a;
+    border-bottom-color: #a0302a;
+    color: #fff; 
+    background-color: #dc5f59;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dc5f59), to(#b33630));
+    background-image: -moz-linear-gradient(#dc5f59, #b33630);
+    background-image: -o-linear-gradient(#dc5f59, #b33630);
+    background-image: linear-gradient(#dc5f59, #b33630);
+}
+
+#fallr abbr {
+    border-bottom: 1px dotted #333;
+}
+
+#fallr h1, 
+#fallr h2,
+#fallr h3,
+#fallr h4,
+#fallr h5,
+#fallr h6,
+#fallr p,
+#fallr form,
+#fallr input,
+#fallr label {
+    margin-bottom: 10px;
+}
+
+#fallr h3 {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+#fallr h4 {
+    font-size: 25px;
+    line-height: 37px;
+}
+
+#fallr h5 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#fallr input[type="text"],
+#fallr input[type="password"], 
+#fallr textarea {
+    background: #fff;
+    border: solid 1px #999;
+    color: #777;
+    padding: 5px;
+    width: 99%; 
+}
+
+#fallr ol li, 
+#fallr ul li,
+#fallr blockquote, 
+#fallr q {
+    margin-left: 20px;
+}
+
+#fallr table {
+    border: 1px solid #ddd;
+	border-collapse:collapse;
+	border-spacing: 0;
+	line-height: 1.35em;
+	width: 100%;
+}
+
+#fallr th, 
+#fallr td {
+    padding: 10px;
+}
+
+#fallr th {
+    background-color: #cecece;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ececec), to(#cecece));
+    background-image: -moz-linear-gradient(#ececec, #cecece);
+    background-image: -o-linear-gradient(#ececec, #cecece);
+    background-image: linear-gradient(#ececec, #cecece);
+}
+
+/* custom icons */
+
+.icon-calendar {
+    background: url('images/view-pim-calendar.png');
+}
+
+.icon-card {
+    background: url('images/x-office-contact.png');
+}
+
+.icon-chat {
+    background: url('images/chat.png');
+}
+
+.icon-check {
+    background: url('images/task-complete.png');
+}
+
+.icon-config {
+    background: url('images/configure.png');
+}
+
+.icon-error {
+    background: url('images/dialog-close.png');
+}
+
+.icon-form {
+    background: url('images/basket.png');
+}
+
+.icon-help {
+    background: url('images/help-contents.png');
+}
+
+.icon-info {
+    background: url('images/dialog-information.png');
+}
+
+.icon-lamp {
+    background: url('images/help-hint.png');
+}
+
+.icon-mail {
+    background: url('images/internet-mail.png');
+}
+
+.icon-news {
+    background: url('images/knewsticker.png');
+}
+
+.icon-photo {
+    background: url('images/kview.png');
+}
+
+.icon-save {
+    background: url('images/document-save.png');
+}
+
+.icon-secure {
+    background: url('images/gpg.png');
+}
+
+.icon-sad {
+    background: url('images/face-sad.png');
+}
+
+.icon-smile {
+    background: url('images/face-smile.png');
+}
+
+/*.icon-trash {
+    background: url('images/trash-empty.png');
+}*/
+
+.icon-user {
+    background: url('images/system-users.png');
+}
+
+.icon-warning {
+    background: url('images/agt_update_criticals.png');
+}
+
+.icon-wizard {
+    background: url('images/plasmagik.png');
+}
