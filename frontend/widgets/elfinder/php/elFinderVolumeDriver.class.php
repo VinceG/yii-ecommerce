@@ -629,10 +629,12 @@ abstract class elFinderVolumeDriver {
 		$type = strtolower($this->options['mimeDetect']);
 		$type = preg_match('/^(finfo|mime_content_type|internal|auto)$/i', $type) ? $type : 'auto';
 		$regexp = '/text\/x\-(php|c\+\+)/';
-		
+
+		//following the php strict standards: Only variables should be passed by reference
+        $arr_temp = explode(';', @finfo_file(finfo_open(FILEINFO_MIME), __FILE__));
 		if (($type == 'finfo' || $type == 'auto') 
 		&& class_exists('finfo')
-		&& preg_match($regexp, array_shift(explode(';', @finfo_file(finfo_open(FILEINFO_MIME), __FILE__))))) {
+		&& preg_match($regexp, array_shift($arr_temp))) {
 			$type = 'finfo';
 		} elseif (($type == 'mime_content_type' || $type == 'auto') 
 		&& function_exists('mime_content_type')

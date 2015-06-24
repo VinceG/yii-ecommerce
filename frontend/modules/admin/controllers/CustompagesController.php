@@ -21,6 +21,8 @@ class CustompagesController extends AdminController {
 	 */
     public function actionIndex() {
 		$model = new CustomPage('search');
+        //Clear any default values
+        $model->unsetAttributes();
         $this->render('index', array( 'model' => $model ) );
     }
 

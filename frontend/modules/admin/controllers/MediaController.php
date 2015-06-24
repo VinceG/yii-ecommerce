@@ -15,10 +15,10 @@ class MediaController extends AdminController {
 	{
 		// Check Access
 		checkAccessThrowException('op_media_view');
-		
+
 		// Make sure uploads directory is set
 		if(!getParam('uploads_dir')) {
-			throw new CHttpException(500, Yii::t('media', 'Sorry, You must set the uploads directory first.'));
+			throw new CHttpException(500, Yii::t('media', 'Sorry, You must set the uploads directory first. From the top menu Go to Tools -> Settings -> Missing Settings.'));
 		}
 		
 		parent::init();

@@ -3,6 +3,7 @@
 .settings/*
 .project
 .DS_Store
+.idea
 /frontend/runtime/*
 /frontend/www/uploads/*
 /frontend/www/assets/*
